@@ -1,0 +1,17 @@
+---
+# defaults file for k3s
+k3s_ver: v0.5.0
+k3s_platform: amd64
+k3s_mirror: https://github.com/rancher/k3s/releases/download
+
+k3s_checksums:
+  v0.5.0:
+    # https://github.com/rancher/k3s/releases/download/v0.5.0/sha256sum-amd64.txt
+    amd64: sha256:b4dba47e1bac203a4e9bcbdf4e362e026ff5d312aa9bdef9a4220b88c47151cb
+    # https://github.com/rancher/k3s/releases/download/v0.5.0/sha256sum-arm.txt
+    armhv: sha256:c0aa31a51bb3210376cdaff39e588f8f11ecf738e2d5a99695f6d9d21619b4a9
+    # https://github.com/rancher/k3s/releases/download/v0.5.0/sha256sum-arm64.txt
+    arm64: sha256:a7c3b46ed7ffa71bbc67a1a32d912218a3a049e624a24bc958658903317f48e8
+
+k3s_install_dir: /usr/local/bin
+

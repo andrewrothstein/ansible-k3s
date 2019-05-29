@@ -1,0 +1,8 @@
+---
+# vars file for k3s
+k3s_exe: 'k3s{% if k3s_platform != "amd64" %}-{{ k3s_platform }}{% endif %}'
+k3s_url: '{{ k3s_mirror }}/{{ k3s_ver }}/{{ k3s_exe }}'
+
+k3s_ver_exe: 'k3s-{{ k3s_platform }}-{{ k3s_ver }}'
+k3s_installed_exe: '{{ k3s_install_dir }}/{{ k3s_ver_exe }}'
+k3s_link: '{{ k3s_install_dir }}/k3s'
