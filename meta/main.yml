@@ -1,5 +1,6 @@
 ---
 galaxy_info:
+  role_name: k3s
   author: Andrew Rothstein
   description: installs k3s
   company: BlackRock Financial Management
