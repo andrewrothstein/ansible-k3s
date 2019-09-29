@@ -1,15 +1,14 @@
 #!/usr/bin/env sh
-VER=v0.8.0
+VER=${1:-v0.9.1}
 DIR=~/Downloads
 MIRROR=https://github.com/rancher/k3s/releases/download/${VER}
 
 dl()
 {
-    PLATFORM=$1
-    FILE=sha256sum-${PLATFORM}.txt
-    URL=$MIRROR/$FILE
-    printf "    # %s\n" $URL
-    printf "    %s: sha256:%s\n" $PLATFORM `curl -sSL $URL | grep k3s | grep -v airgap | awk '{print $1}'`
+    local arch=$1
+    url=$MIRROR/sha256sum-${arch}.txt
+    printf "    # %s\n" $url
+    printf "    %s: sha256:%s\n" $arch `curl -sSL $url | grep k3s | grep -v airgap | awk '{print $1}'`
 }
 
 printf "  %s:\n" $VER
