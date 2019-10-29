@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
-VER=${1:-v0.9.1}
+VER=${1:-v0.10.1}
 DIR=~/Downloads
 MIRROR=https://github.com/rancher/k3s/releases/download/${VER}
 
