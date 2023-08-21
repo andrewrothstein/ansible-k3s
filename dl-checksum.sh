@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 set -e
 DIR=~/Downloads
-MIRROR=https://github.com/rancher/k3s/releases/download
+MIRROR=https://github.com/k3s-io/k3s/releases/download
 
 dl()
 {
@@ -21,4 +21,4 @@ dl_ver() {
 }
 
 
-dl_ver ${1:-v1.21.1+k3s1}
+dl_ver ${1:-v1.27.4+k3s1}

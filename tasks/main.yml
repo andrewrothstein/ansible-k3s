@@ -1,13 +1,13 @@
 ---
-- name: download k3s
-  become: yes
+- name: downloading {{ k3s_url }} to {{ k3s_installed_exe }}
+  become: true
   become_user: root
   get_url:
     url: '{{ k3s_url }}'
     dest: '{{ k3s_installed_exe }}'
     mode: 0755
-- name: link k3s
-  become: yes
+- name: linking {{ k3s_link }} to {{ k3s_installed_exe }}
+  become: true
   become_user: root
   file:
     src: '{{ k3s_installed_exe }}'
