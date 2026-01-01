@@ -3,6 +3,5 @@ name: build
 'on': push
 jobs:
   dagger-ansible-test-role:
-    # TODO: change back to @develop after docker-ansible PR #53 is merged
-    uses: andrewrothstein/docker-ansible/.github/workflows/dagger-ansible-test-role.yml@feature/scan-both-arches
+    uses: andrewrothstein/docker-ansible/.github/workflows/dagger-ansible-test-role.yml@develop
     secrets: inherit
