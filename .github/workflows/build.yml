@@ -3,6 +3,5 @@ name: build
 'on': push
 jobs:
   dagger-ansible-test-role:
-    # TODO: change back to @develop after docker-ansible PR #52 is merged
-    uses: andrewrothstein/docker-ansible/.github/workflows/dagger-ansible-test-role.yml@feature/gen-role-files
+    uses: andrewrothstein/docker-ansible/.github/workflows/dagger-ansible-test-role.yml@develop
     secrets: inherit
