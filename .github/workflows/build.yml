@@ -1,5 +1,8 @@
 ---
-jobs:
-  bake-ansible-images-v1:
-    uses: andrewrothstein/.github/.github/workflows/bake-ansible-images-v1.yml@develop
+name: build
 'on': push
+jobs:
+  dagger-ansible-test-role:
+    # TODO: change back to @develop after docker-ansible PR #52 is merged
+    uses: andrewrothstein/docker-ansible/.github/workflows/dagger-ansible-test-role.yml@feature/gen-role-files
+    secrets: inherit
