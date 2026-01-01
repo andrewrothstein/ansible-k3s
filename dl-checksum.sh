@@ -20,5 +20,4 @@ dl_ver() {
     dl $ver arm
 }
 
-
-dl_ver ${1:-v1.29.3+k3s1}
+dl_ver ${1:-v1.35.0+k3s1}

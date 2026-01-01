@@ -1,6 +1,6 @@
 ---
 # defaults file for k3s
-k3s_ver: v1.29.3+k3s1
+k3s_ver: v1.35.0+k3s1
 k3s_arch_map:
   x86_64: amd64
   aarch64: arm64
@@ -114,3 +114,493 @@ k3s_checksums:
     arm64: sha256:94db39b46d34f601b99759384d2301c5d4ef7461038fecb3168165123309bae5
     # https://github.com/k3s-io/k3s/releases/download/v1.29.3+k3s1/sha256sum-arm.txt
     arm: sha256:9b5c6f3df99bcb3154ae76b6d73b6d31aa3ea9c8ecb5d91b5bd848107a749b78
+  v1.29.3+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.29.3+k3s1/sha256sum-amd64.txt
+    amd64: sha256:21b7542eeac71ffea09ee1efb9190bce7b77b8233ae13e12f3165c746c8559ee
+    # https://github.com/k3s-io/k3s/releases/download/v1.29.3+k3s1/sha256sum-arm64.txt
+    arm64: sha256:94db39b46d34f601b99759384d2301c5d4ef7461038fecb3168165123309bae5
+    # https://github.com/k3s-io/k3s/releases/download/v1.29.3+k3s1/sha256sum-arm.txt
+    arm: sha256:9b5c6f3df99bcb3154ae76b6d73b6d31aa3ea9c8ecb5d91b5bd848107a749b78
+  v1.29.4+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.29.4+k3s1/sha256sum-amd64.txt
+    amd64: sha256:2bcc3f7ba201e219575c6b7c3663af409e6dde691903b9d049302134816cf0e6
+    # https://github.com/k3s-io/k3s/releases/download/v1.29.4+k3s1/sha256sum-arm64.txt
+    arm64: sha256:bc5ac0dabe47d865717045ba1a63fd55da791f5c74b6dee8406328fb9a23bb61
+    # https://github.com/k3s-io/k3s/releases/download/v1.29.4+k3s1/sha256sum-arm.txt
+    arm: sha256:d6321a8d06c0c79be51c672ba676cdad1e66ce07280f0ea5fd50662bc0a3d7f9
+  v1.29.5+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.29.5+k3s1/sha256sum-amd64.txt
+    amd64: sha256:a1899ecb66b2c912ed7bd902147456ecd4a2c414dc5b7939c496084067d34da8
+    # https://github.com/k3s-io/k3s/releases/download/v1.29.5+k3s1/sha256sum-arm64.txt
+    arm64: sha256:2cea3540f38ad12510e971bc11a7c90a67ee1d300c22c4e39ba7f0fad5fcef56
+    # https://github.com/k3s-io/k3s/releases/download/v1.29.5+k3s1/sha256sum-arm.txt
+    arm: sha256:718df13c3bc48e0c22461310f3cef1916857e8a343d3213c5e44ffb5494824ca
+  v1.29.6+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.29.6+k3s1/sha256sum-amd64.txt
+    amd64: sha256:c633cbd4091c6dddd2e6a63604e49a104adc4f49a4d45cb7b9ab8c16c9ff63ce
+    # https://github.com/k3s-io/k3s/releases/download/v1.29.6+k3s1/sha256sum-arm64.txt
+    arm64: sha256:c1052427599046215bbd4e16b6c1c965fd09c9af3eb0e1bf9ffe81540c208358
+    # https://github.com/k3s-io/k3s/releases/download/v1.29.6+k3s1/sha256sum-arm.txt
+    arm: sha256:f8b765896db7fc4d58901e88de1daec9a3ebf5503b2a2200092732ae92d98be7
+  v1.29.6+k3s2:
+    # https://github.com/k3s-io/k3s/releases/download/v1.29.6+k3s2/sha256sum-amd64.txt
+    amd64: sha256:b74c4aef946abc821366ec07f24d8e851aff816104d792689e9f2c8e62b36d04
+    # https://github.com/k3s-io/k3s/releases/download/v1.29.6+k3s2/sha256sum-arm64.txt
+    arm64: sha256:8bf2d81db8a3083714639da87ef5a74ea37db35fa823ac0db85c5ccb8e55c4f7
+    # https://github.com/k3s-io/k3s/releases/download/v1.29.6+k3s2/sha256sum-arm.txt
+    arm: sha256:3ed88763082dd11e5a2a6e57fcbe1aba14381704470bc47da134559d58b30c44
+  v1.29.7+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.29.7+k3s1/sha256sum-amd64.txt
+    amd64: sha256:72802a6438d4433560565ff7c90f3d662dc8d5094748f35b5560f9ea77957c5c
+    # https://github.com/k3s-io/k3s/releases/download/v1.29.7+k3s1/sha256sum-arm64.txt
+    arm64: sha256:44c45874c37478aa222eed5a3eaaba0407e1a64a87f4a5333d5f07fc28993e5d
+    # https://github.com/k3s-io/k3s/releases/download/v1.29.7+k3s1/sha256sum-arm.txt
+    arm: sha256:6bb8806fcabac71d70b9d7ed02718b508f5ff70417e6e80bd5a8f4e65fa22a92
+  v1.29.8+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.29.8+k3s1/sha256sum-amd64.txt
+    amd64: sha256:9680909e99711b8acd9182cead6c6a8cdf0bff94be27df28e163c30881731288
+    # https://github.com/k3s-io/k3s/releases/download/v1.29.8+k3s1/sha256sum-arm64.txt
+    arm64: sha256:f52c4eb11ad404e13735c6ff099e6c48787aaa1e4726799b59a430e0d39229a3
+    # https://github.com/k3s-io/k3s/releases/download/v1.29.8+k3s1/sha256sum-arm.txt
+    arm: sha256:4a8e1beff148e828e64668badc70c59e8f676cb1a0c3405ea3bc2b446a6b3dcd
+  v1.29.9+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.29.9+k3s1/sha256sum-amd64.txt
+    amd64: sha256:1d09adc906c16afbc69963b22070401f3c29a2c336368582f92b4330f0c89197
+    # https://github.com/k3s-io/k3s/releases/download/v1.29.9+k3s1/sha256sum-arm64.txt
+    arm64: sha256:fd7e511b8a7b9679dc3e6260313a87670086065e6bd1ad6602545b40b00d0024
+    # https://github.com/k3s-io/k3s/releases/download/v1.29.9+k3s1/sha256sum-arm.txt
+    arm: sha256:6097d332cf70a25b539a01235686e21f7f36a7219e600e70762074b09262d918
+  v1.29.10+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.29.10+k3s1/sha256sum-amd64.txt
+    amd64: sha256:5b82d6964ae1720a2cd5a5198a7732636ae6076321d497f5533502e2e488f53f
+    # https://github.com/k3s-io/k3s/releases/download/v1.29.10+k3s1/sha256sum-arm64.txt
+    arm64: sha256:0eccc3ce9bbf40b88c897f6a6293dd6aa97ee59b6f2f69c30e2811608e607757
+    # https://github.com/k3s-io/k3s/releases/download/v1.29.10+k3s1/sha256sum-arm.txt
+    arm: sha256:a95dea20e4083eec6d26a2944c6e18d33b9c19bb378b3039c56ba195159ebe8a
+  v1.29.11+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.29.11+k3s1/sha256sum-amd64.txt
+    amd64: sha256:0edd44a4df0818fdc39695626f617ac5dc06f9ed7c34f8ac4a38f2930e576a8f
+    # https://github.com/k3s-io/k3s/releases/download/v1.29.11+k3s1/sha256sum-arm64.txt
+    arm64: sha256:df1747df07a798d27d3cd05938d3c4cb7f9a3c8f00dc18fec7b06b091faf2fc1
+    # https://github.com/k3s-io/k3s/releases/download/v1.29.11+k3s1/sha256sum-arm.txt
+    arm: sha256:96b5c2f8a0d751ccf21280514fb43c8b3e022432ff2d14545d953fc2e2a50910
+  v1.29.12+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.29.12+k3s1/sha256sum-amd64.txt
+    amd64: sha256:f31250b354d5cf3358faaf8b5605151ad9e5bcd7ccdfdb86262a93bb5fb3cfaa
+    # https://github.com/k3s-io/k3s/releases/download/v1.29.12+k3s1/sha256sum-arm64.txt
+    arm64: sha256:472851d4f0f104abaa467ee95f9d7d49059bd3dae4089fa23e3617358eff3e6a
+    # https://github.com/k3s-io/k3s/releases/download/v1.29.12+k3s1/sha256sum-arm.txt
+    arm: sha256:8b9e50f98ec2c9f6ac7ce203cbb147b8ec7160e13470e5014b550ec13eff4c05
+  v1.29.13+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.29.13+k3s1/sha256sum-amd64.txt
+    amd64: sha256:af51db0b1825503cd24cbca2775998e13839b6b1d05b9cf1f0ce25b886b5d088
+    # https://github.com/k3s-io/k3s/releases/download/v1.29.13+k3s1/sha256sum-arm64.txt
+    arm64: sha256:7ba658f9be0a778d293bdacc13620b2f7309416e1e51e74f50d9747a524cac9c
+    # https://github.com/k3s-io/k3s/releases/download/v1.29.13+k3s1/sha256sum-arm.txt
+    arm: sha256:431838753ba1c7f5796e4c1ed26a92273b2f6093e01425b1f0cf00320c4a2e4f
+  v1.29.14+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.29.14+k3s1/sha256sum-amd64.txt
+    amd64: sha256:2260257b71424577ebbc9b578e56fe126cc9f31a2e823862aafd47764d4bfcb5
+    # https://github.com/k3s-io/k3s/releases/download/v1.29.14+k3s1/sha256sum-arm64.txt
+    arm64: sha256:3306b94fbb81263ec6fde9b05fcfb0588cb21aef981bd3a4e5f521e51922b95b
+    # https://github.com/k3s-io/k3s/releases/download/v1.29.14+k3s1/sha256sum-arm.txt
+    arm: sha256:b72110afab34d7ff11850cec845dbe093a0781201fcb0492391fb3f51c423b8c
+  v1.29.15+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.29.15+k3s1/sha256sum-amd64.txt
+    amd64: sha256:149288dc0012e36658b1b2dbdf4420a269833aede501e18727214301cd28b92c
+    # https://github.com/k3s-io/k3s/releases/download/v1.29.15+k3s1/sha256sum-arm64.txt
+    arm64: sha256:2bcf38ebea5e75a69518dc668b546f23409924cc1a023f38ee2ba7a3849cab3a
+    # https://github.com/k3s-io/k3s/releases/download/v1.29.15+k3s1/sha256sum-arm.txt
+    arm: sha256:ebae7b7095d9f6a223008fe288ba53e38b536be9309603d882aea251bf311190
+  v1.30.0+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.30.0+k3s1/sha256sum-amd64.txt
+    amd64: sha256:e4b85e74d7be314f39e033142973cc53619f4fbaff3639a420312f20dea12868
+    # https://github.com/k3s-io/k3s/releases/download/v1.30.0+k3s1/sha256sum-arm64.txt
+    arm64: sha256:a26b1e4cf67850b26db0222017e3dad238fa1f69f88dac2142c783124c28581f
+    # https://github.com/k3s-io/k3s/releases/download/v1.30.0+k3s1/sha256sum-arm.txt
+    arm: sha256:73e830f7c3e9bc774fe3fcfaaba82ce6ea04498592d26a8aa1a58e75d9837166
+  v1.30.1+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.30.1+k3s1/sha256sum-amd64.txt
+    amd64: sha256:39a5057fb49bf576a45c32ef3ef63bff448252d4d25c6c41b8dcc5e48e278bf5
+    # https://github.com/k3s-io/k3s/releases/download/v1.30.1+k3s1/sha256sum-arm64.txt
+    arm64: sha256:b3a29de474948b582252b98d656c7958255224766cbc1a81e1669b611ff6bd77
+    # https://github.com/k3s-io/k3s/releases/download/v1.30.1+k3s1/sha256sum-arm.txt
+    arm: sha256:98fce86da1927edab9ae991944c7fcbfb32fcc69d971f00b852f57db5bba8295
+  v1.30.2+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.30.2+k3s1/sha256sum-amd64.txt
+    amd64: sha256:77dea8d77d077779f9805ea1775651aa0e9850f972ec0d968fa71423e02f4962
+    # https://github.com/k3s-io/k3s/releases/download/v1.30.2+k3s1/sha256sum-arm64.txt
+    arm64: sha256:3f24ab230a520e92f09afd036c06d416143cd8ac7176a967f95cda441150bd19
+    # https://github.com/k3s-io/k3s/releases/download/v1.30.2+k3s1/sha256sum-arm.txt
+    arm: sha256:000778d81afdb1965c804b5f4fec8411f2a0ba2a8a326c22a53dec402db56566
+  v1.30.2+k3s2:
+    # https://github.com/k3s-io/k3s/releases/download/v1.30.2+k3s2/sha256sum-amd64.txt
+    amd64: sha256:3b7f74edcc9b4a7649426b6816a7d3d6d76ddf742384ac63b86ee66e230de758
+    # https://github.com/k3s-io/k3s/releases/download/v1.30.2+k3s2/sha256sum-arm64.txt
+    arm64: sha256:759822eab4b92e5a36950e94b5810255c0cc145098393a7ea4b695ecef171857
+    # https://github.com/k3s-io/k3s/releases/download/v1.30.2+k3s2/sha256sum-arm.txt
+    arm: sha256:90020706bb108d2115997bcbc30a68ea5b6ea5524655ff910942668a84b4282f
+  v1.30.3+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.30.3+k3s1/sha256sum-amd64.txt
+    amd64: sha256:00e9752be22c0e440cee3a8ffd51e2b8c18ef10cea7edf11cc33f37c70bb6385
+    # https://github.com/k3s-io/k3s/releases/download/v1.30.3+k3s1/sha256sum-arm64.txt
+    arm64: sha256:00786746ad8b61efc96e3ea9d4dd3315fbd47818d89d8f5cad2be8a17e69b9aa
+    # https://github.com/k3s-io/k3s/releases/download/v1.30.3+k3s1/sha256sum-arm.txt
+    arm: sha256:52e896f21b919fc54d17c4038d8fd080a5df036f211c2ba31336d7329c98012b
+  v1.30.4+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.30.4+k3s1/sha256sum-amd64.txt
+    amd64: sha256:fb942b7870d9a88e10d063e9f52b99fa538becca761e2578887e04e5ce167e53
+    # https://github.com/k3s-io/k3s/releases/download/v1.30.4+k3s1/sha256sum-arm64.txt
+    arm64: sha256:5938c8d20b06ed7d425cf8d1520d2d1abd45f48c28dd9fbbb30c529255c24c1b
+    # https://github.com/k3s-io/k3s/releases/download/v1.30.4+k3s1/sha256sum-arm.txt
+    arm: sha256:81a26ccde1486bcb5b97b800841b82aee16518b1245ed7be466a4ddc95f5a7af
+  v1.30.5+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.30.5+k3s1/sha256sum-amd64.txt
+    amd64: sha256:322fbdc904deb1bf2f7a4460c0ae616db3aea75b8aefe911286946cdb0893d95
+    # https://github.com/k3s-io/k3s/releases/download/v1.30.5+k3s1/sha256sum-arm64.txt
+    arm64: sha256:da3b23dc736401259f2e5ada5c481f8302d4f8a55b6d580e1abecaf85e89f2ac
+    # https://github.com/k3s-io/k3s/releases/download/v1.30.5+k3s1/sha256sum-arm.txt
+    arm: sha256:33ea520bb7d5609d3274956db9b2485127f082c777d6a12f320c64b80f44181a
+  v1.30.6+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.30.6+k3s1/sha256sum-amd64.txt
+    amd64: sha256:66f96a9a9ec631a4b69b08884d38f8ad8124907666323e9215993693d8853c66
+    # https://github.com/k3s-io/k3s/releases/download/v1.30.6+k3s1/sha256sum-arm64.txt
+    arm64: sha256:d6a4aac2945bf7a757b87a56f41b49c500ed5d4ccc2b42284ebfbd3cd1a25162
+    # https://github.com/k3s-io/k3s/releases/download/v1.30.6+k3s1/sha256sum-arm.txt
+    arm: sha256:62a549b2b3cdebe2801a2ec685c18bd09f20deeda0953e4e3b47fceb63b44a9f
+  v1.30.7+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.30.7+k3s1/sha256sum-amd64.txt
+    amd64: sha256:79efb227ff1daa4910e35e63ab18134caf4e56153dad0871b38eb20fd5549e24
+    # https://github.com/k3s-io/k3s/releases/download/v1.30.7+k3s1/sha256sum-arm64.txt
+    arm64: sha256:e41d1ec1524f166bf757d42369cfcabee9a4d45485c757280a119ad7aea857ba
+    # https://github.com/k3s-io/k3s/releases/download/v1.30.7+k3s1/sha256sum-arm.txt
+    arm: sha256:5e04d6a573cfe9702e154554221192e53190b3e940af2dc25ba89e984ea7fe6f
+  v1.30.8+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.30.8+k3s1/sha256sum-amd64.txt
+    amd64: sha256:460ce116ed14203d3a6ad467533048d824c8030ffcbc9f4f6bd910d6b7c32cb7
+    # https://github.com/k3s-io/k3s/releases/download/v1.30.8+k3s1/sha256sum-arm64.txt
+    arm64: sha256:275954aaa58cfc1de31199962b42eb26210fdc857a943c7c351630e1ffb1ade7
+    # https://github.com/k3s-io/k3s/releases/download/v1.30.8+k3s1/sha256sum-arm.txt
+    arm: sha256:875aa053dd96946fc6adb9e829a8894c37ff5e83dbc0fcd46c6aeeb9f683919d
+  v1.30.9+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.30.9+k3s1/sha256sum-amd64.txt
+    amd64: sha256:b0bc19909b64f530b71f636d66cd8e02c891664bfe38c921f56fc48c8787c24d
+    # https://github.com/k3s-io/k3s/releases/download/v1.30.9+k3s1/sha256sum-arm64.txt
+    arm64: sha256:c1205f5404b636b3ff2762d3325544df3c252afbabeb059438cdc29e7c3302fc
+    # https://github.com/k3s-io/k3s/releases/download/v1.30.9+k3s1/sha256sum-arm.txt
+    arm: sha256:e2c7066a0d3d6973db90599ad09bfeca740158ea8e79acb0f95afd279dd1730e
+  v1.30.10+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.30.10+k3s1/sha256sum-amd64.txt
+    amd64: sha256:326b76d5b915432d0630e1767f2e0130603e2a2a6c093290ed2852f33f963351
+    # https://github.com/k3s-io/k3s/releases/download/v1.30.10+k3s1/sha256sum-arm64.txt
+    arm64: sha256:269d4f1910bb8a1e0917ef2ccb3b71be8230791f7e1ebe662dbfec9a76c4e9c9
+    # https://github.com/k3s-io/k3s/releases/download/v1.30.10+k3s1/sha256sum-arm.txt
+    arm: sha256:092fa710438a478436bee9f416822708c6e06e3c8a6457f67644f14ae105206a
+  v1.30.11+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.30.11+k3s1/sha256sum-amd64.txt
+    amd64: sha256:bd1fc4ab6128e2e08f6165b8b98d980a4e227ce0ef5b9d06b8165525cbfa6dce
+    # https://github.com/k3s-io/k3s/releases/download/v1.30.11+k3s1/sha256sum-arm64.txt
+    arm64: sha256:be7c4b94e2980530ad57afc195fcacd6fe63aaa4b0a09e9d821ba2888cb4794f
+    # https://github.com/k3s-io/k3s/releases/download/v1.30.11+k3s1/sha256sum-arm.txt
+    arm: sha256:99445bb18cd952916231eadaec8d21f8f24eabae932a75d854af353418969f96
+  v1.30.12+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.30.12+k3s1/sha256sum-amd64.txt
+    amd64: sha256:dbdb80d74fa4234b574557c3d50d42b8781e147e26642d0393ab7fa87f630f8c
+    # https://github.com/k3s-io/k3s/releases/download/v1.30.12+k3s1/sha256sum-arm64.txt
+    arm64: sha256:3c4119d74238ae4d85bd22b139cbd8a4485555b2463324fe696510efa908dded
+    # https://github.com/k3s-io/k3s/releases/download/v1.30.12+k3s1/sha256sum-arm.txt
+    arm: sha256:0375e4362743f3e06d021f86c479d7ea03343ebec20341ab1801bba9d1f9f40b
+  v1.30.13+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.30.13+k3s1/sha256sum-amd64.txt
+    amd64: sha256:e972a6b6d7a12f50ad3ea3bd58598d4ca059148c0fbf80f983cb4684069af885
+    # https://github.com/k3s-io/k3s/releases/download/v1.30.13+k3s1/sha256sum-arm64.txt
+    arm64: sha256:c2c994baf99a95f57e46c734ad4b6e972b34ebbc1fdd4a86b542789a9aab207a
+    # https://github.com/k3s-io/k3s/releases/download/v1.30.13+k3s1/sha256sum-arm.txt
+    arm: sha256:c8c6d0bb302ec85b5d732f31f467952f1f685ad61598ae1913bc625de4863772
+  v1.30.14+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.30.14+k3s1/sha256sum-amd64.txt
+    amd64: sha256:12ab717251944a7bd6296a78769ccf3bdae012adc1ae277441b0f37484eb295a
+    # https://github.com/k3s-io/k3s/releases/download/v1.30.14+k3s1/sha256sum-arm64.txt
+    arm64: sha256:a25fa84ba08e00fd3901d230ef95a805b882ecb476f2c38a0efacbdd375e3b4e
+    # https://github.com/k3s-io/k3s/releases/download/v1.30.14+k3s1/sha256sum-arm.txt
+    arm: sha256:4e98ad58c58d5caa7d8a3c1b1270ea1e490399abdc5fc3e3738dcd506c02a72f
+  v1.30.14+k3s2:
+    # https://github.com/k3s-io/k3s/releases/download/v1.30.14+k3s2/sha256sum-amd64.txt
+    amd64: sha256:f078ff0123975cd35d9e7b562b2c850de03969260810f49434112755ea5e494b
+    # https://github.com/k3s-io/k3s/releases/download/v1.30.14+k3s2/sha256sum-arm64.txt
+    arm64: sha256:ef8e9123de5bf9edf7608ee07797bb568f0b1c15939768d564ed2577f09e1e06
+    # https://github.com/k3s-io/k3s/releases/download/v1.30.14+k3s2/sha256sum-arm.txt
+    arm: sha256:e8985e79cea482c356d6d123c3b92f829bae2626db14cd745c63dc4bcd1bf1ae
+  v1.31.0+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.31.0+k3s1/sha256sum-amd64.txt
+    amd64: sha256:a6bef15460b89491e6a60e53fbec29aa20ae44ad02dbdaae9f235c1f27933a62
+    # https://github.com/k3s-io/k3s/releases/download/v1.31.0+k3s1/sha256sum-arm64.txt
+    arm64: sha256:e12755a6965a7f50c6d2c62444ef2b6b8c724d0b8900752452fc2bbb1d5fab28
+    # https://github.com/k3s-io/k3s/releases/download/v1.31.0+k3s1/sha256sum-arm.txt
+    arm: sha256:fb19811dc0aa35dce1eb058aabc82fe419adfc0efe37243efaa251613f0a6459
+  v1.31.1+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.31.1+k3s1/sha256sum-amd64.txt
+    amd64: sha256:404141c08a6b194246784191f1fc7200dc7a56f4b44aff069e00ff2786803d96
+    # https://github.com/k3s-io/k3s/releases/download/v1.31.1+k3s1/sha256sum-arm64.txt
+    arm64: sha256:8ddcf03f00031342e187600554b52457779c5b8feb10cdf48f87900bfdb7a702
+    # https://github.com/k3s-io/k3s/releases/download/v1.31.1+k3s1/sha256sum-arm.txt
+    arm: sha256:df88838e94f958097a4aa45676cb3dbe1579aecfa29ff8e2a2a2ac5cdadca9e5
+  v1.31.2+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.31.2+k3s1/sha256sum-amd64.txt
+    amd64: sha256:256ca852ff2ca165afbc14ed34df450aa1295e4eb01e3d1da9f251f37e546712
+    # https://github.com/k3s-io/k3s/releases/download/v1.31.2+k3s1/sha256sum-arm64.txt
+    arm64: sha256:a9c4cdb7f038ea46f84bdf1b5c1e518637a8bdf84c39f281a6400bc7e9d8f9f0
+    # https://github.com/k3s-io/k3s/releases/download/v1.31.2+k3s1/sha256sum-arm.txt
+    arm: sha256:0c5b47e292c98fab58f09f32aee4325d9ef2972639b233939d2e06399a3f0ee0
+  v1.31.3+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.31.3+k3s1/sha256sum-amd64.txt
+    amd64: sha256:0d4aee46981d6aa78ed9285f8d97be175d6bf07ed3cac952e7f861b4a3ecddf7
+    # https://github.com/k3s-io/k3s/releases/download/v1.31.3+k3s1/sha256sum-arm64.txt
+    arm64: sha256:2ca79ab27d731e3610bcce84c90f819a627bd631b79a393e6566f4ada22969a1
+    # https://github.com/k3s-io/k3s/releases/download/v1.31.3+k3s1/sha256sum-arm.txt
+    arm: sha256:3db542aa71d12a6ca4aa856bfbc3211c8634f3d026e4d1c5cf7807d98a0ba117
+  v1.31.4+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.31.4+k3s1/sha256sum-amd64.txt
+    amd64: sha256:74897e4af26ea383ce50f445752f40ca63a0aef0d90994fb74073c43063eeeb2
+    # https://github.com/k3s-io/k3s/releases/download/v1.31.4+k3s1/sha256sum-arm64.txt
+    arm64: sha256:eff4cc82c8c057bd2dc432025b933616637dcf3df91e9e06720d9208743640d3
+    # https://github.com/k3s-io/k3s/releases/download/v1.31.4+k3s1/sha256sum-arm.txt
+    arm: sha256:efee4925861a1381d9490d97ec6e6f11c5a0ba67e186be9e1bc98f63d404f533
+  v1.31.5+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.31.5+k3s1/sha256sum-amd64.txt
+    amd64: sha256:399b87b432ce55013fa81adad572a8e4ecf56e0df97369cf02d4b8a41f039091
+    # https://github.com/k3s-io/k3s/releases/download/v1.31.5+k3s1/sha256sum-arm64.txt
+    arm64: sha256:b719566c43ab1379fe2a7ce477e02bc1c79ea106bdaa7223fa9f6e19a735b477
+    # https://github.com/k3s-io/k3s/releases/download/v1.31.5+k3s1/sha256sum-arm.txt
+    arm: sha256:326763e2ba840188a660284cdc0ede4722274fccebfec354e3aa1be125291bf1
+  v1.31.6+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.31.6+k3s1/sha256sum-amd64.txt
+    amd64: sha256:9f82f06b4cf318fcf4eeda3f4fedaa10c0cebc418b1a047e72b104f5ea7874c5
+    # https://github.com/k3s-io/k3s/releases/download/v1.31.6+k3s1/sha256sum-arm64.txt
+    arm64: sha256:1909a4904e5b426e2aac50ef1a72821a9a03e744ea896f26b7e415a490fdfac6
+    # https://github.com/k3s-io/k3s/releases/download/v1.31.6+k3s1/sha256sum-arm.txt
+    arm: sha256:0b17e9488d17dee649f78fe38e15cec91199d234d504a00ef419e930609e6ac4
+  v1.31.7+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.31.7+k3s1/sha256sum-amd64.txt
+    amd64: sha256:77077df352d91b5a803113d2d98f94a267d1680222f04a0fd76b2aed646f9344
+    # https://github.com/k3s-io/k3s/releases/download/v1.31.7+k3s1/sha256sum-arm64.txt
+    arm64: sha256:03786cdce32012fe12cb46ee06683b95369c88c48656056c4e79d689964134aa
+    # https://github.com/k3s-io/k3s/releases/download/v1.31.7+k3s1/sha256sum-arm.txt
+    arm: sha256:f92fade0a458741990fad51c3ab9df157b7dda1987f418cba0ca202b82b44110
+  v1.31.8+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.31.8+k3s1/sha256sum-amd64.txt
+    amd64: sha256:a291cffad26482d23fcf97d4873b200adf063e95f23bb39ffabe7b3c0d0b9337
+    # https://github.com/k3s-io/k3s/releases/download/v1.31.8+k3s1/sha256sum-arm64.txt
+    arm64: sha256:e19d0a88d5e624e7a760ae8a0d34b247e7fc1107b0410a8c39092163b6313596
+    # https://github.com/k3s-io/k3s/releases/download/v1.31.8+k3s1/sha256sum-arm.txt
+    arm: sha256:32d7bff5dbce5ca0fa54ef8f53a52608028664732e173a8de96018ce0db537f6
+  v1.31.9+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.31.9+k3s1/sha256sum-amd64.txt
+    amd64: sha256:1b315c940bb2222600fde4d239932e29948307514fdf7d0a758378dd76e16357
+    # https://github.com/k3s-io/k3s/releases/download/v1.31.9+k3s1/sha256sum-arm64.txt
+    arm64: sha256:eb51bf24bc5cccad8162f61568e7d9ba7637e6dbc55865be30d93aae94ccff28
+    # https://github.com/k3s-io/k3s/releases/download/v1.31.9+k3s1/sha256sum-arm.txt
+    arm: sha256:b724c46dec63d09bb13f0c1a5cb9267eef762fa8b072d7a98c3e5d1f04e62a06
+  v1.31.10+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.31.10+k3s1/sha256sum-amd64.txt
+    amd64: sha256:12924a877b5fdf8c8813ce57c5e529aaaac0d7ebdc4b3ab4c5ba76aa2a1acc93
+    # https://github.com/k3s-io/k3s/releases/download/v1.31.10+k3s1/sha256sum-arm64.txt
+    arm64: sha256:5b31cbc94c7e708d29f55aafd78d08796f9e592489f248f8e2ad7737f789cad1
+    # https://github.com/k3s-io/k3s/releases/download/v1.31.10+k3s1/sha256sum-arm.txt
+    arm: sha256:949aee6b0f55de697bc5e26339524e83b23b784c8d20f3881f409f05a8cddf26
+  v1.31.11+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.31.11+k3s1/sha256sum-amd64.txt
+    amd64: sha256:f91376dd129ea7a08faee8f98c86d56b2088b729e9b54b33c951eeb5f140baab
+    # https://github.com/k3s-io/k3s/releases/download/v1.31.11+k3s1/sha256sum-arm64.txt
+    arm64: sha256:4ff214ee0b7d5d3561840af5b68db278e6f553590edec3abe1125e5fca733f2b
+    # https://github.com/k3s-io/k3s/releases/download/v1.31.11+k3s1/sha256sum-arm.txt
+    arm: sha256:553bfd67258c212c64251955e328fd0678608a25d27e79ce8802027aebc41362
+  v1.31.12+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.31.12+k3s1/sha256sum-amd64.txt
+    amd64: sha256:4e4ff40e0867d9e5a21164c4497094ab341b96fd1f1c09010974a894faa387b7
+    # https://github.com/k3s-io/k3s/releases/download/v1.31.12+k3s1/sha256sum-arm64.txt
+    arm64: sha256:0c38b17d04f2ff9b3878799c360f65e40fbb7c7d3840167a4e6d8c180753f86a
+    # https://github.com/k3s-io/k3s/releases/download/v1.31.12+k3s1/sha256sum-arm.txt
+    arm: sha256:2d3edbc8770345be7a80c8f16b463b540be16858acf3e6ec3b8a9330aed3b331
+  v1.31.13+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.31.13+k3s1/sha256sum-amd64.txt
+    amd64: sha256:0fadce496d8007eeb55a16390bd12257d423026316c6860f336ea528e05f3886
+    # https://github.com/k3s-io/k3s/releases/download/v1.31.13+k3s1/sha256sum-arm64.txt
+    arm64: sha256:1884b7d29e25d8544ba0ad8f885caee38c2e702b93e70129b959af65d5639471
+    # https://github.com/k3s-io/k3s/releases/download/v1.31.13+k3s1/sha256sum-arm.txt
+    arm: sha256:b74e58c4db17d17acb3fdbfa36f351a7056a0717ca039e535cac570a8d5f2d8a
+  v1.31.14+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.31.14+k3s1/sha256sum-amd64.txt
+    amd64: sha256:660c48d525e5fa2c2ddd889a25ce2c18c961e3046cc083cbde8557a8ff1ddb46
+    # https://github.com/k3s-io/k3s/releases/download/v1.31.14+k3s1/sha256sum-arm64.txt
+    arm64: sha256:ce16d95de12a85ddf2e72359401dd50dae396cc7725e26f09e2bbb78dae4e555
+    # https://github.com/k3s-io/k3s/releases/download/v1.31.14+k3s1/sha256sum-arm.txt
+    arm: sha256:f959cdae8fa0095c00f742a06c11686acb19ea730effbcbcbf8d86b6146452b6
+  v1.32.0+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.32.0+k3s1/sha256sum-amd64.txt
+    amd64: sha256:c8b43f1e3e42d39386da625125bf2820f897ba068e86d7104ef06441240aaf52
+    # https://github.com/k3s-io/k3s/releases/download/v1.32.0+k3s1/sha256sum-arm64.txt
+    arm64: sha256:4b8ae2b8160e66cca858e9ee9ffa70c4e2fed5eb40e0b15e04490823acbaf3b4
+    # https://github.com/k3s-io/k3s/releases/download/v1.32.0+k3s1/sha256sum-arm.txt
+    arm: sha256:4f1195cbd780e4c4458599650216626a09aaa885631422fd297c27ae2248fb5d
+  v1.32.1+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.32.1+k3s1/sha256sum-amd64.txt
+    amd64: sha256:7a20520703bd23ab665c0f3de8a06d7955c88b6a4f7170c59f517b9c1938a2b4
+    # https://github.com/k3s-io/k3s/releases/download/v1.32.1+k3s1/sha256sum-arm64.txt
+    arm64: sha256:b4ec759029c266ed261f551cbf92519680b2a6ce4f6c093cac5a06a5d2cdc5ff
+    # https://github.com/k3s-io/k3s/releases/download/v1.32.1+k3s1/sha256sum-arm.txt
+    arm: sha256:5bfc05571f5bd747dfea22bd7dbd7680c0d3c002a9fcbea206097bd4fc373ca3
+  v1.32.2+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.32.2+k3s1/sha256sum-amd64.txt
+    amd64: sha256:853fba419a18369dabfba093c33d1ef47388fcc205765e6ce22e8a4a4e810c98
+    # https://github.com/k3s-io/k3s/releases/download/v1.32.2+k3s1/sha256sum-arm64.txt
+    arm64: sha256:79d3c5c67abe8d24c2e59ecb51f675ed1232ff43e810e0d661af34fa7a27c66a
+    # https://github.com/k3s-io/k3s/releases/download/v1.32.2+k3s1/sha256sum-arm.txt
+    arm: sha256:cd45dcec5e5b02659d8fb07c2726cb4f9f57e41a8fd8daa1371fe24d9cb5ae3c
+  v1.32.3+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.32.3+k3s1/sha256sum-amd64.txt
+    amd64: sha256:b19216803650b567bf980888dec39035edaf664339c55bc4462f7a003edbef83
+    # https://github.com/k3s-io/k3s/releases/download/v1.32.3+k3s1/sha256sum-arm64.txt
+    arm64: sha256:e1704d6dd74332acc8c398d36987663c7d559144b8ce789a83fd0ff1cb40cbaa
+    # https://github.com/k3s-io/k3s/releases/download/v1.32.3+k3s1/sha256sum-arm.txt
+    arm: sha256:a4e6579fb13f4cda7a50110772a2792645f6c8282e1bcb41b5c726fdefe899f1
+  v1.32.4+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.32.4+k3s1/sha256sum-amd64.txt
+    amd64: sha256:f16989fc00c31a946a89ccb6320f540f4822e2748e758494d5305f20352026e9
+    # https://github.com/k3s-io/k3s/releases/download/v1.32.4+k3s1/sha256sum-arm64.txt
+    arm64: sha256:08867b9599e1f806fd1a8e3090662185e70daaa0fc95566a6aedcaefe4c5e40c
+    # https://github.com/k3s-io/k3s/releases/download/v1.32.4+k3s1/sha256sum-arm.txt
+    arm: sha256:c443cf2043079b707c3e84f6e5156ef1e4bc32c92a1be9a27dc530fb81aaa515
+  v1.32.5+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.32.5+k3s1/sha256sum-amd64.txt
+    amd64: sha256:9624ef0534b1be432b4ce8dd94dcd7241ed02451d970a4d38943baccf5c60dce
+    # https://github.com/k3s-io/k3s/releases/download/v1.32.5+k3s1/sha256sum-arm64.txt
+    arm64: sha256:eb62d8ba346f7c6a0bb5c874ea92335ecad7cb3fa167508f94888aaeb43e7f22
+    # https://github.com/k3s-io/k3s/releases/download/v1.32.5+k3s1/sha256sum-arm.txt
+    arm: sha256:d9ea2edae8710246f7ccd0b0eb688e665937072a4ab8aa08a1b99d8b3ca89788
+  v1.32.6+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.32.6+k3s1/sha256sum-amd64.txt
+    amd64: sha256:a7753f1b5e3b24a4178cfad18ff6fd47313e201f0a3d48db0974dc74d3fe41c1
+    # https://github.com/k3s-io/k3s/releases/download/v1.32.6+k3s1/sha256sum-arm64.txt
+    arm64: sha256:7b273749a115d29efb5a661613e5cd333c83a3b08e783e9178bb98ee36eecad4
+    # https://github.com/k3s-io/k3s/releases/download/v1.32.6+k3s1/sha256sum-arm.txt
+    arm: sha256:0d4b2c3b3585efe14ffc971f22a854d1e52e2fe74c5de446269afdc9ab42f0ad
+  v1.32.7+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.32.7+k3s1/sha256sum-amd64.txt
+    amd64: sha256:e15ced04176d2a3f8754a872012db0f6e043aea1b00c0421e4c3328d9ffb8dde
+    # https://github.com/k3s-io/k3s/releases/download/v1.32.7+k3s1/sha256sum-arm64.txt
+    arm64: sha256:cf4ca4b9e38621fd6b111ab12b15d2dd9cbdb8a9aee55d7ffaa38325da1f1e94
+    # https://github.com/k3s-io/k3s/releases/download/v1.32.7+k3s1/sha256sum-arm.txt
+    arm: sha256:27c0d5593810d834b0554ffa7fa5dbbf48dba9cd101006f012bc109758aa4232
+  v1.32.8+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.32.8+k3s1/sha256sum-amd64.txt
+    amd64: sha256:639a113cfc5465082fd98ff2947a3d962039f78adddefbf4a4aecf4a1f485e79
+    # https://github.com/k3s-io/k3s/releases/download/v1.32.8+k3s1/sha256sum-arm64.txt
+    arm64: sha256:e1eaae168f12e04a0e05491b38566f7d8dc427b74edfb2d645b58c7fd1ed6259
+    # https://github.com/k3s-io/k3s/releases/download/v1.32.8+k3s1/sha256sum-arm.txt
+    arm: sha256:782bbee4439e1b80cc453407f8456b23f1b420115a4e9549f8925ee47ed0e803
+  v1.32.9+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.32.9+k3s1/sha256sum-amd64.txt
+    amd64: sha256:a8c6194fca78d0969fd1a6cd893dbbe8ec108d9ac087ead8eda0d8d096b47718
+    # https://github.com/k3s-io/k3s/releases/download/v1.32.9+k3s1/sha256sum-arm64.txt
+    arm64: sha256:9a7f1cfc223fcb4f2fd0915994628d7f37d72901ba8a04845054fe2b594e268d
+    # https://github.com/k3s-io/k3s/releases/download/v1.32.9+k3s1/sha256sum-arm.txt
+    arm: sha256:f078e5be91cb60c1004cc5b7961c1570588ab4b56c81d316e16a8ba928b9c76d
+  v1.32.10+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.32.10+k3s1/sha256sum-amd64.txt
+    amd64: sha256:6f4012de542b9e831c1fcdb030645156aa4ca355202ea20ea5e544ae4ee1e650
+    # https://github.com/k3s-io/k3s/releases/download/v1.32.10+k3s1/sha256sum-arm64.txt
+    arm64: sha256:dc7f277fbafdaf04db2fb22afd0b25b2f25735e569c3023c5f7e7f4c22ff9f86
+    # https://github.com/k3s-io/k3s/releases/download/v1.32.10+k3s1/sha256sum-arm.txt
+    arm: sha256:d2b6c08cfd543ded9a95f832e3c212a76e49c66e5d147438eb4282ade0d22034
+  v1.32.11+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.32.11+k3s1/sha256sum-amd64.txt
+    amd64: sha256:6c0507fbd81b2b9a640cc9f18d572378b3a3725df401916f5121cb940b667a2c
+    # https://github.com/k3s-io/k3s/releases/download/v1.32.11+k3s1/sha256sum-arm64.txt
+    arm64: sha256:02fe727fbf4c0780f61debd71566a5d1fc0915a713dc216862ff7ae69b77c0ec
+    # https://github.com/k3s-io/k3s/releases/download/v1.32.11+k3s1/sha256sum-arm.txt
+    arm: sha256:76b5dc440ac3e4314182777b0ea79ca277f4d8924f7bd74dddcfeddfafe7a345
+  v1.33.0+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.33.0+k3s1/sha256sum-amd64.txt
+    amd64: sha256:32af5d569ecae4bf503b68c21e29885687265a514eb33c45bf0873fff4cb4b63
+    # https://github.com/k3s-io/k3s/releases/download/v1.33.0+k3s1/sha256sum-arm64.txt
+    arm64: sha256:1637c3cfaa5abb442acc87d8641299df5f6119d00e43c91d11377b6c8a118d72
+    # https://github.com/k3s-io/k3s/releases/download/v1.33.0+k3s1/sha256sum-arm.txt
+    arm: sha256:44fb8d30c83533ce876402ccf51703ab58e3de06d88045f619b0a00a92671efd
+  v1.33.1+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.33.1+k3s1/sha256sum-amd64.txt
+    amd64: sha256:0f53a0ee29c837713472e5fb0a13b5841f9dca76d029b26138364b9efbac66b1
+    # https://github.com/k3s-io/k3s/releases/download/v1.33.1+k3s1/sha256sum-arm64.txt
+    arm64: sha256:ae4d5208d786b7ae3d916133419728bfc676648bd996de609e5cd55327c6f30a
+    # https://github.com/k3s-io/k3s/releases/download/v1.33.1+k3s1/sha256sum-arm.txt
+    arm: sha256:82ae70eabac867e9f4fa46b89690c356803cedfab6b6bbceb022c1d72d67c0af
+  v1.33.2+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.33.2+k3s1/sha256sum-amd64.txt
+    amd64: sha256:a0b8c48bee8588289d2249c3ce2bc58afb273dc7c13057c9b65e56de74c7ceeb
+    # https://github.com/k3s-io/k3s/releases/download/v1.33.2+k3s1/sha256sum-arm64.txt
+    arm64: sha256:1fa4a6a3a11c927902398b3d94a552190fa0e0957de70df38d57d5e5d8a7cde5
+    # https://github.com/k3s-io/k3s/releases/download/v1.33.2+k3s1/sha256sum-arm.txt
+    arm: sha256:d59686c7bdfdfc420219607182aaa80de297668a996ce9dc8afd2bccd8fd970c
+  v1.33.3+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.33.3+k3s1/sha256sum-amd64.txt
+    amd64: sha256:f03cad6610cf5b2903d8a9ac3d6716690e53dab461b09c07b0c913a262166abc
+    # https://github.com/k3s-io/k3s/releases/download/v1.33.3+k3s1/sha256sum-arm64.txt
+    arm64: sha256:152c961aae4aa7553865481c21902a3cc8e02550df97587379a409494c3626c4
+    # https://github.com/k3s-io/k3s/releases/download/v1.33.3+k3s1/sha256sum-arm.txt
+    arm: sha256:221ba0315d760aab1f0079c7b3c02264e8a086688cea59bf3195a97fbc25d99c
+  v1.33.4+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.33.4+k3s1/sha256sum-amd64.txt
+    amd64: sha256:10da34c350ab8a02e4513a6021046db9e9afecc31bae77419bc6444cbd7b1400
+    # https://github.com/k3s-io/k3s/releases/download/v1.33.4+k3s1/sha256sum-arm64.txt
+    arm64: sha256:0ba95d3933c90f4c72a502e1a0b39f3d1af311cc9961d2e049e321dd6db88be6
+    # https://github.com/k3s-io/k3s/releases/download/v1.33.4+k3s1/sha256sum-arm.txt
+    arm: sha256:c79e4a1e0fe7607004fb9cbbdc0d8a0dc2373b81f226ef620090af35863e68a8
+  v1.33.5+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.33.5+k3s1/sha256sum-amd64.txt
+    amd64: sha256:ba2bc6892347d5ddf7d9a1f50b4d6fe73c6c325eb16894aa95993ac143096725
+    # https://github.com/k3s-io/k3s/releases/download/v1.33.5+k3s1/sha256sum-arm64.txt
+    arm64: sha256:21d032b2ca1bb2696c352eb0ff0c2d20bb06214b8c0a71b03494f958039ff06b
+    # https://github.com/k3s-io/k3s/releases/download/v1.33.5+k3s1/sha256sum-arm.txt
+    arm: sha256:80c6969e5539f89c0b18d5e0734201585551d8ec15bc9bddaceb93fb12d57bbe
+  v1.33.6+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.33.6+k3s1/sha256sum-amd64.txt
+    amd64: sha256:86945269160fdd1bbd06283ea5b3bafd6c0ec0d1df3ac68ad3686656632081a5
+    # https://github.com/k3s-io/k3s/releases/download/v1.33.6+k3s1/sha256sum-arm64.txt
+    arm64: sha256:456118cd41fc509b4c6d1def26e33f586afaf3944856d5fde677f974f9f9814b
+    # https://github.com/k3s-io/k3s/releases/download/v1.33.6+k3s1/sha256sum-arm.txt
+    arm: sha256:deb5366e9550fbfa5371cc5a0ac8b97459d8f68d61bc84b29601015d0e850733
+  v1.33.7+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.33.7+k3s1/sha256sum-amd64.txt
+    amd64: sha256:8cb5e74c409635f73856d1956ca9b2402df3c72524b894299a891d3f05da399d
+    # https://github.com/k3s-io/k3s/releases/download/v1.33.7+k3s1/sha256sum-arm64.txt
+    arm64: sha256:4648225a3c5617c68f01b8dd2d7cb46ec12903d52dc568c9fab7eaf5296c7306
+    # https://github.com/k3s-io/k3s/releases/download/v1.33.7+k3s1/sha256sum-arm.txt
+    arm: sha256:f66843996b7538c3a4e9440b6add3ce91c1037ba056add3ffe50242e04f5be23
+  v1.34.1+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.34.1+k3s1/sha256sum-amd64.txt
+    amd64: sha256:ec8958fe1363a32d50e028b5e3411c04b0dbd0316fab33524e8094352b78f6a3
+    # https://github.com/k3s-io/k3s/releases/download/v1.34.1+k3s1/sha256sum-arm64.txt
+    arm64: sha256:3888e0f28e16be4de619d652a5a3e4816ae85878a38f914b1830bff3ef7483ff
+    # https://github.com/k3s-io/k3s/releases/download/v1.34.1+k3s1/sha256sum-arm.txt
+    arm: sha256:b47ac83c37f1f0849ac649bcf2b1a9bd792d090c1e30529d12481607d4a5c1e4
+  v1.34.2+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.34.2+k3s1/sha256sum-amd64.txt
+    amd64: sha256:15811d34187e03fe29d0e46108c42cc33e62cec1b3d9d80f50944536ebcad40a
+    # https://github.com/k3s-io/k3s/releases/download/v1.34.2+k3s1/sha256sum-arm64.txt
+    arm64: sha256:2e1db0e54a8b0d0ab8a264a119c9c617561f9290e7bb2722d795f8bc91b24cf8
+    # https://github.com/k3s-io/k3s/releases/download/v1.34.2+k3s1/sha256sum-arm.txt
+    arm: sha256:8824bf5f2af87ecb05575d1712325615968c073b022c6178e5356887c2f1eff7
+  v1.34.3+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.34.3+k3s1/sha256sum-amd64.txt
+    amd64: sha256:f95350e3997165974d1d1406f01aabaf869aed7ca790cc2d83a92a82f26a06c5
+    # https://github.com/k3s-io/k3s/releases/download/v1.34.3+k3s1/sha256sum-arm64.txt
+    arm64: sha256:fa37b06df7ae82b46de6679a8682b6ece2adf531709bed6299086716c1038147
+    # https://github.com/k3s-io/k3s/releases/download/v1.34.3+k3s1/sha256sum-arm.txt
+    arm: sha256:e75d12a5c481e96372b112dc20faa9a64f1b73069897012b025b976bd359de3d
+  v1.35.0+k3s1:
+    # https://github.com/k3s-io/k3s/releases/download/v1.35.0+k3s1/sha256sum-amd64.txt
+    amd64: sha256:959c9310a6ab893958d1c95bc5d7609de9d7884630c8832180f059369b6dc331
+    # https://github.com/k3s-io/k3s/releases/download/v1.35.0+k3s1/sha256sum-arm64.txt
+    arm64: sha256:c0b1673a1f2b740cb7bb08355c885efb6a4aa5c8022e5bb306c621c8c1492883
+    # https://github.com/k3s-io/k3s/releases/download/v1.35.0+k3s1/sha256sum-arm.txt
+    arm: sha256:baf71e2e083676cfbb378ee1e1e5aa5509c2f9bd9ba56feb266a0d18365e6f54
