@@ -1,6 +1,9 @@
 ---
 # defaults file for k3s
 k3s_ver: v1.29.3+k3s1
+k3s_arch_map:
+  x86_64: amd64
+  aarch64: arm64
 k3s_platform: amd64
 k3s_mirror: https://github.com/k3s-io/k3s/releases/download
 k3s_install_dir: /usr/local/bin

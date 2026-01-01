@@ -1,5 +1,6 @@
 ---
 # vars file for k3s
+k3s_platform: '{{ k3s_arch_map[ansible_facts["architecture"]] }}'
 k3s_exe: 'k3s{% if k3s_platform != "amd64" %}-{{ k3s_platform }}{% endif %}'
 k3s_url: '{{ k3s_mirror }}/{{ k3s_ver }}/{{ k3s_exe }}'
 
